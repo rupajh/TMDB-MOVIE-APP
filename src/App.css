@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cast-member {
+  text-align: center;
+  width: 150px;
+}
+
+.cast-member img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cast-member p {
+  margin: 5px 0;
+}
+
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.movie-card {
+  width: 200px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+}
+.home-page-wraper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.movie-card-wraper{
+  background-color: black;
+
+}
+.page-background{
+  background-color: #04042e;
+}
+.text-md{
+  font-size: 14px;
+}
+.text-sm{
+  font-size: 12px;
+}
+.text-xl{
+  font-size: 16px;
+}
+.text{
+  color: #9a6bc6;
+}
+.text-white{
+  color:white
+}
+.movie-image-style{
+  border-radius: 12px 12px 0px 0px;
+}
+.movie-card-style{
+  border-radius: 0 0 12px 12px;
+}
+.movie-details{
+  padding: 35px;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-card h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
